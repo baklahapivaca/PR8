@@ -1,0 +1,47 @@
+
+div {
+    padding: 10px;
+    background-color: #e8bfad;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+a {
+    color: red;
+}
+@media screen and (min-device-width: 1600px) {
+    div {
+        width: 1500px;
+    }
+}
+
+@media screen and (min-device-width: 1280px) and (max-device-width: 1599px) {
+    div {
+        width: 1100px;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+    div {
+        width: 980px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    div {
+        width: 300px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    div {
+        background-color: #add8e6; 
+    }
+}
+
+
+@media screen and (orientation: landscape) {
+    div {
+        background-color: #90ee90; 
+    }
+}
